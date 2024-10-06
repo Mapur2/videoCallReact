@@ -8,7 +8,7 @@ export const useSocket=()=>{
 }
 
 export const SocketProvider = (props)=>{
-    const socket = useMemo(()=>io('localhost:8000'),[])
+    const socket = useMemo(()=>io('videocallreact-production.up.railway.app'),[])
     return (
         <SocketContext.Provider value={socket}>
             {
