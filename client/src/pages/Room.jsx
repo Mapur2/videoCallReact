@@ -581,7 +581,7 @@ const RoomPage = () => {
             <h1 className="text-xl text-white font-semibold mb-2">Remote Stream</h1>
             <ReactPlayer
               playing
-              muted
+              muted={true}
               height="200px"
               width="350px"
               className="rounded-lg shadow-lg"
